@@ -5,6 +5,12 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryApp", "InventoryApp\InventoryApp.csproj", "{586ED9E0-4CA6-4B36-A6A7-565A3C3A5F3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryApp.Domain", "InventoryApp.Domain\InventoryApp.Domain.csproj", "{692AF144-1E9C-4E28-A746-BF372E25E173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryApp.AppCore", "InventoryApp.Application\InventoryApp.AppCore.csproj", "{1EC4A805-3DDE-4E5F-A63D-B3FAC9D15EC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryApp.Infraestructure", "InventoryApp.Infraestructure\InventoryApp.Infraestructure.csproj", "{75A2AEB1-5ADA-4B37-AA97-B91A944BD69F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +23,18 @@ Global
 		{586ED9E0-4CA6-4B36-A6A7-565A3C3A5F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{586ED9E0-4CA6-4B36-A6A7-565A3C3A5F3D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{586ED9E0-4CA6-4B36-A6A7-565A3C3A5F3D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{692AF144-1E9C-4E28-A746-BF372E25E173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692AF144-1E9C-4E28-A746-BF372E25E173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692AF144-1E9C-4E28-A746-BF372E25E173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692AF144-1E9C-4E28-A746-BF372E25E173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC4A805-3DDE-4E5F-A63D-B3FAC9D15EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC4A805-3DDE-4E5F-A63D-B3FAC9D15EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC4A805-3DDE-4E5F-A63D-B3FAC9D15EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC4A805-3DDE-4E5F-A63D-B3FAC9D15EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A2AEB1-5ADA-4B37-AA97-B91A944BD69F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A2AEB1-5ADA-4B37-AA97-B91A944BD69F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A2AEB1-5ADA-4B37-AA97-B91A944BD69F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A2AEB1-5ADA-4B37-AA97-B91A944BD69F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

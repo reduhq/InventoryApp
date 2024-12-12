@@ -62,4 +62,16 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\InventoryApp.Application\InventoryApp.AppCore.csproj" />
+	  <ProjectReference Include="..\InventoryApp.Domain\InventoryApp.Domain.csproj" />
+	  <ProjectReference Include="..\InventoryApp.Infraestructure\InventoryApp.Infraestructure.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\RegisterPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
